@@ -8,3 +8,5 @@ and insert the last element to the front of the array.
 
 We can now use these two "fake" elements as "auto scroll markers".  Meaning when we hit a contentOffset.x of zero or collectionView.contentView.frame.width - pageWidth,
 we can autoscroll the user to the "real" version of the first or last element.  With no animation this is very seemless.
+
+# Diagram Support
