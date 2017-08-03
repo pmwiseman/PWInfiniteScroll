@@ -14,6 +14,7 @@
 		3BB0A5D01F32D54000C01782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BB0A5CE1F32D54000C01782 /* LaunchScreen.storyboard */; };
 		3BB0A5DB1F32D54100C01782 /* PWInfiniteCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB0A5DA1F32D54100C01782 /* PWInfiniteCollectionViewTests.swift */; };
 		3BB0A5E61F32D54100C01782 /* PWInfiniteCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB0A5E51F32D54100C01782 /* PWInfiniteCollectionViewUITests.swift */; };
+		3BB0A5F41F32EB4900C01782 /* Infinite_Paging_UICollectionView.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB0A5F31F32EB4900C01782 /* Infinite_Paging_UICollectionView.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3BB0A5E11F32D54100C01782 /* PWInfiniteCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PWInfiniteCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB0A5E51F32D54100C01782 /* PWInfiniteCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PWInfiniteCollectionViewUITests.swift; sourceTree = "<group>"; };
 		3BB0A5E71F32D54100C01782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BB0A5F31F32EB4900C01782 /* Infinite_Paging_UICollectionView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Infinite_Paging_UICollectionView.png; path = ../../../Infinite_Paging_UICollectionView.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				3BB0A5C71F32D54000C01782 /* ViewController.swift */,
 				3BB0A5C91F32D54000C01782 /* Main.storyboard */,
 				3BB0A5CC1F32D54000C01782 /* Assets.xcassets */,
+				3BB0A5F31F32EB4900C01782 /* Infinite_Paging_UICollectionView.png */,
 				3BB0A5CE1F32D54000C01782 /* LaunchScreen.storyboard */,
 				3BB0A5D11F32D54000C01782 /* Info.plist */,
 			);
@@ -237,6 +240,7 @@
 			files = (
 				3BB0A5D01F32D54000C01782 /* LaunchScreen.storyboard in Resources */,
 				3BB0A5CD1F32D54000C01782 /* Assets.xcassets in Resources */,
+				3BB0A5F41F32EB4900C01782 /* Infinite_Paging_UICollectionView.png in Resources */,
 				3BB0A5CB1F32D54000C01782 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
