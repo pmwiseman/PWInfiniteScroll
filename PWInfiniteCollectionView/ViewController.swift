@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var pageControl: UIPageControl!
-    @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var collectionView: PWInfiniteCollectionView!
     
     var colors = [UIColor.blue, UIColor.black, UIColor.yellow, UIColor.cyan, UIColor.red, UIColor.purple]
     var originalCount = 0
@@ -21,7 +21,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         originalCount = colors.count
         pageControl.numberOfPages = originalCount
-        createInfiniteColorPagingDataStructure()
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -29,15 +28,6 @@ class ViewController: UIViewController {
         pageWidth = view.frame.size.width
         let frame = CGRect(x: pageWidth, y: 0, width: pageWidth, height: 100)
         collectionView.scrollRectToVisible(frame, animated: false)
-    }
-    
-    func createInfiniteColorPagingDataStructure() {
-        let firstColor = colors.first
-        let lastColor = colors.last
-        if let _firstColor = firstColor, let _lastColor = lastColor {
-            colors.append(_firstColor)
-            colors.insert(_lastColor, at: 0)
-        }
     }
     
     func setPageControl(withOffset offset: CGFloat) {
@@ -52,14 +42,16 @@ class ViewController: UIViewController {
     }
 }
 
-extension ViewController: UICollectionViewDataSource {
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+extension ViewController: PWInfiniteCollectionViewDataSource {
+    
+    func numberOfItems(collectionView: UICollectionView) -> Int {
         return colors.count
     }
     
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    func cellForItemAt(collectionView: UICollectionView, indexPath: IndexPath, dataIndexPath: IndexPath) -> UICollectionViewCell {
+        print("INDEXPATH: \(dataIndexPath)")
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
-        let color = colors[indexPath.row]
+        let color = colors[dataIndexPath.row]
         cell.backgroundColor = color
         return cell
     }

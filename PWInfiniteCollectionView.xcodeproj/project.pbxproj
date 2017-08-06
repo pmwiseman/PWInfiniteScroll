@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B92A3981F368DA000C737EF /* PWInfiniteCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B92A3971F368DA000C737EF /* PWInfiniteCollectionView.swift */; };
 		3BB0A5C61F32D54000C01782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB0A5C51F32D54000C01782 /* AppDelegate.swift */; };
 		3BB0A5C81F32D54000C01782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB0A5C71F32D54000C01782 /* ViewController.swift */; };
 		3BB0A5CB1F32D54000C01782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BB0A5C91F32D54000C01782 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B92A3971F368DA000C737EF /* PWInfiniteCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWInfiniteCollectionView.swift; sourceTree = "<group>"; };
 		3BB0A5C21F32D54000C01782 /* PWInfiniteCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PWInfiniteCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB0A5C51F32D54000C01782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BB0A5C71F32D54000C01782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B92A3961F368D5F00C737EF /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				3B92A3971F368DA000C737EF /* PWInfiniteCollectionView.swift */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
 		3BB0A5B91F32D54000C01782 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 			children = (
 				3BB0A5C51F32D54000C01782 /* AppDelegate.swift */,
 				3BB0A5C71F32D54000C01782 /* ViewController.swift */,
+				3B92A3961F368D5F00C737EF /* New Group */,
 				3BB0A5C91F32D54000C01782 /* Main.storyboard */,
 				3BB0A5CC1F32D54000C01782 /* Assets.xcassets */,
 				3BB0A5CE1F32D54000C01782 /* LaunchScreen.storyboard */,
@@ -264,6 +275,7 @@
 			files = (
 				3BB0A5C81F32D54000C01782 /* ViewController.swift in Sources */,
 				3BB0A5C61F32D54000C01782 /* AppDelegate.swift in Sources */,
+				3B92A3981F368DA000C737EF /* PWInfiniteCollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +528,7 @@
 				3BB0A5EC1F32D54100C01782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BB0A5ED1F32D54100C01782 /* Build configuration list for PBXNativeTarget "PWInfiniteCollectionViewTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +537,7 @@
 				3BB0A5EF1F32D54100C01782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BB0A5F01F32D54100C01782 /* Build configuration list for PBXNativeTarget "PWInfiniteCollectionViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +546,7 @@
 				3BB0A5F21F32D54100C01782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
