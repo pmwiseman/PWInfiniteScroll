@@ -10,3 +10,4 @@ We can now use these two "fake" elements as "auto scroll markers".  Meaning when
 we can autoscroll the user to the "real" version of the first or last element.  With no animation this is very seemless.
 
 # Diagram Support
+![Diagram Support](https://raw.githubusercontent.com/pmwiseman/PWInfiniteScroll/master/PWInfiniteCollectionView/Assets.xcassets/Infinite_Paging_UICollectionView.imageset/Infinite_Paging_UICollectionView.png)
